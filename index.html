@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The weather</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="app" id="app">
+    <div class="app__container">
+      <div class="app__container-top">
+        <form class="location-form" id="location-form">
+          <input type="text" class="location-form__input" id="location-form-input" placeholder="Location" required>
+          <button class="location-form__btn" id="location-form__btn">
+            <svg class="location-form__icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+              viewBox="0 0 256 256">
+              <path fill="currentColor"
+                d="m228.24 219.76l-51.38-51.38a86.15 86.15 0 1 0-8.48 8.48l51.38 51.38a6 6 0 0 0 8.48-8.48ZM38 112a74 74 0 1 1 74 74a74.09 74.09 0 0 1-74-74Z" />
+            </svg>
+          </button>
+        </form>
+      </div>
+      <div class="app__container-bottom" id="cards-box">
+      </div>
+    </div>
+  </div>
+  <script defer type="module" src="js/main.js"></script>
+</body>
+
+</html>
